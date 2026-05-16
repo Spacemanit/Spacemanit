@@ -1,6 +1,13 @@
 <h1>Manit Bisht,</h1>
 <p>A guy studying B.Tech CSE from VIT Vellore
-I mostly code backend using MERN stack
 
-but i know Java, Python, JS, CSS, and a little bit of C</p>
+## Fluent in:
+C, C++, TypeScript, JavaScript, HTML/CSS
+
+## Tech Stack and FrameWorks:
+MERN, Angular
+
+## Software:
+Figma, VSCode, Github, Linux
+</p>
 ###
