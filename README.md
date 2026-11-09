@@ -1,4 +1,4 @@
-# 👋 Hello World! I'm **Manit Bisht**
+# 👋 Hello World! I'm <img src="./manit-bisht.svg" width="100%" />
 
 ![Profile Visits](https://komarev.com/ghpvc/?username=Spacemanit&color=ff69b4)
 ![GitHub followers](https://img.shields.io/github/followers/Spacemanit?label=Followers&style=flat-square)
