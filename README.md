@@ -1,4 +1,6 @@
-# 👋 Hello World! I'm <a href="https://spacemanit.github.io/Manit-Bisht/"><img src="manit-bisht.svg" alt="Manit Bisht" width="200" height="200"></a>
+![App Walkthrough](blackhole.gif)
+
+# 👋 Hello World! I'm **MANIT BISHT**
 
 ![Profile Visits](https://komarev.com/ghpvc/?username=Spacemanit&color=ff69b4)
 ![GitHub followers](https://img.shields.io/github/followers/Spacemanit?label=Followers&style=flat-square)
