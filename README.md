@@ -1,4 +1,4 @@
-![App Walkthrough](blackhole.gif)
+<img src="blackhole.gif" alt="App Walkthrough" style="width: 100vw; max-height: 400px; height: 400px; object-fit: cover; display: block;">
 
 # 👋 Hello World! I'm **MANIT BISHT**
 
