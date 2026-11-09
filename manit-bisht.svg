@@ -1,0 +1,39 @@
+<svg xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 800 120" width="100%" height="120">
+  <defs>
+    <!-- 
+      3-Color Seamless Loop (Nordic Frost):
+      Deep Frost Blue -> Glacier Cyan -> Snow White -> Loop
+    -->
+    <linearGradient id="rightToLeftWave" x1="0%" y1="0%" x2="200%" y2="0%">
+      <!-- First Set -->
+      <stop offset="0%" stop-color="#004e92" />   <!-- Color 1: Deep Frost Blue -->
+      <stop offset="16.6%" stop-color="#00c6ff" /> <!-- Color 2: Glacier Cyan -->
+      <stop offset="33.3%" stop-color="#f5f7fa" /> <!-- Color 3: Snow White -->
+      <stop offset="50%" stop-color="#004e92" />   <!-- Loop point -->
+      
+      <!-- Duplicate Set for Seamless Loop -->
+      <stop offset="66.6%" stop-color="#00c6ff" /> <!-- Color 2 again -->
+      <stop offset="83.3%" stop-color="#f5f7fa" /> <!-- Color 3 again -->
+      <stop offset="100%" stop-color="#004e92" />  <!-- Color 1 again -->
+    </linearGradient>
+
+    <style>
+      .wave-text {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 46px;
+        fill: url(#rightToLeftWave);
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Animated gradient shifter moving the colors from Right-to-Left cleanly -->
+  <rect width="0" height="0">
+    <animate xlink:href="#rightToLeftWave" attributeName="x1" from="0%" to="-100%" dur="4s" repeatCount="indefinite" />
+    <animate xlink:href="#rightToLeftWave" attributeName="x2" from="200%" to="100%" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <text x="50%" y="50%" class="wave-text">MANIT BISHT</text>
+</svg>
